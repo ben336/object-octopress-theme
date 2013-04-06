@@ -49,10 +49,10 @@ $title_color: #000;
 $subtitle_color: #666;
 
 // Main Link Colors
-$link-color: #000;
-$link-color-hover: #666;
-$link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4);
-$link-color-active: adjust-color($link-color-hover, $lightness: -15);
+$link-color: #C0392B;
+$link-color-hover: #E74C3C;
+$link-color-visited: #D35400;
+$link-color-active: #E67E22;
 
 $nav-bg: #fff;
 $nav-border-bottom: #000;
