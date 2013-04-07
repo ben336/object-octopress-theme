@@ -78,7 +78,7 @@ body > header {
   text-align: left;
   color: #000000;
   font-size: 130%;
-  text-shadow: 1px 1px 1px #DDDDDD;
+  /*text-shadow: 1px 1px 1px #DDDDDD;*/
   h1 {
     display: inline-block;
     margin: 0;
@@ -89,7 +89,7 @@ body > header {
       color: $subtitle_color;
       font-family: $header-subtitle-font-family;
       font-size: 40%;
-      font-style: italic;
+      /*font-style: italic;*/
       font-weight: normal;
       margin-left: 10px;
     }
