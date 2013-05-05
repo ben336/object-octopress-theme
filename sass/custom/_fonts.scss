@@ -10,7 +10,12 @@
 //$header-title-font-family: "Futura", sans-serif;
 //$header-subtitle-font-family: "Futura", sans-serif;
 
-$header-title-font-family: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
-$header-subtitle-font-family: 'Knewave', cursive;
-$sans: "Helvetica Neue", Arial, sans-serif;
+@font-face {
+font-family: "Mission Gothic";
+src: url("/assets/fonts/Mission Gothic Regular.otf");
+}
+
+$header-title-font-family: 'Mission Gothic',Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace;
+$header-subtitle-font-family: 'Mission Gothic', sans-serif;
+$sans: 'Mission Gothic', Arial, sans-serif;
 $serif: Georgia, Times, "Times New Roman", serif;

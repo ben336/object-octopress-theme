@@ -4,6 +4,9 @@
 html {
   background: $page-bg;
 }
+body {
+  line-height: 30px;
+}
 
 @media only screen and (min-width: 768px) {
   body { -webkit-text-size-adjust: auto; }
@@ -118,7 +121,7 @@ body {
 }
 
 body {
-  line-height: 26px;
+  line-height: 30px;
 }
 
 body > header, body > nav, body > footer, body #content > article, body #content > div > article, body #content > div > section {
@@ -158,5 +161,11 @@ aside.sidebar {
   }
   li {
     border-bottom: 0;
+  }
+}
+
+@media screen  {
+  .heading, body>header h1, h1, h2, h3, h4, h5, h6 {
+  font-family: $sans;
   }
 }
