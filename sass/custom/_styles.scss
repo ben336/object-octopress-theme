@@ -8,6 +8,25 @@ body {
   line-height: 30px;
 }
 
+.clear {
+width: 100%;
+float: right;
+}
+
+.footnotes {
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #111;
+}
+
+a[rel="footnote"] {
+   font-height:12px;
+   margin: 0 2px 15px 2px;
+   vertical-align: super
+}
+
 @media only screen and (min-width: 768px) {
   body { -webkit-text-size-adjust: auto; }
   body > header { font-size: $header-font-size * 1.2; }
@@ -167,5 +186,14 @@ aside.sidebar {
 @media screen  {
   .heading, body>header h1, h1, h2, h3, h4, h5, h6 {
   font-family: $sans;
+  }
+  
+  blockquote {
+    font-style: italic;
+    position: relative;
+    font-size: 18px;
+    line-height: 30px;
+    padding-left: 1em;
+    border-left: 4px solid rgba(170,170,170,0.5);
   }
 }
